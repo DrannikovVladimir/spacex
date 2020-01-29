@@ -1,0 +1,25 @@
+.main-nav__list {
+  width: 615px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.main-nav__link {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid transparent;
+
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+
+  &:hover {
+    border-bottom: 1px solid #989393;
+  }
+}
