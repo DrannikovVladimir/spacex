@@ -59,11 +59,11 @@
   height: 100px;
   margin-right: 170px;
   padding-top: 25px;
-  background-image: linear-gradient(to right, #FFFFFF 5px, transparent 5px, transparent 312px, #FFFFFF 312px),
-  linear-gradient(to right, #FFFFFF 5px, transparent 5px, transparent 312px, #FFFFFF 312px),
-  linear-gradient(to bottom, #FFFFFF 5px, transparent 5px, transparent 95px, #FFFFFF 95px),
-  linear-gradient(to bottom, #FFFFFF 5px, transparent 5px, transparent 95px, #FFFFFF 95px);
-  background-size: 100% 1px, 100% 1px, 1px 100%, 1px 100%;
+  background-image: linear-gradient(to right, #FFFFFF 7px, transparent 7px, transparent 310px, #FFFFFF 310px),
+  linear-gradient(to right, #FFFFFF 7px, transparent 7px, transparent 310px, #FFFFFF 310px),
+  linear-gradient(to bottom, #FFFFFF 7px, transparent 7px, transparent 93px, #FFFFFF 93px),
+  linear-gradient(to bottom, #FFFFFF 7px, transparent 7px, transparent 93px, #FFFFFF 93px);
+  background-size: 100% 1.5px, 100% 1.5px, 1.5px 100%, 1.5px 100%;
   background-position: 0 0, 0 100%, 0 0, 100% 0;
   background-repeat: no-repeat;
 
@@ -73,12 +73,12 @@
     content: '';
 
     position: absolute;
-    top: 5px;
-    bottom: 5px;
+    top: 7px;
+    bottom: 7px;
     right: 0;
 
     width: 1px;
-    height: calc(100% - 10px);
+    height: calc(100% - 14px);
 
     background-color: #989393;
     z-index: 1;
@@ -90,12 +90,12 @@
     content: '';
 
     position: absolute;
-    top: 5px;
-    bottom: 5px;
+    top: 7px;
+    bottom: 7px;
     left: 0;
 
     width: 1px;
-    height: calc(100% - 10px);
+    height: calc(100% - 14px);
 
     background-color: #989393;
     z-index: 1;
