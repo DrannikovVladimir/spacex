@@ -1,0 +1,11 @@
+{
+  "name": "ilon",
+  "version": "1.0.0",
+  "description": "journey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir",
+  "license": "ISC"
+}
