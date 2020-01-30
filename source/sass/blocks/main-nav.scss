@@ -1,5 +1,11 @@
+.main-nav {
+  position: relative;
+
+  z-index: 20;
+}
+
 .main-nav__list {
-  width: 615px;
+  width: 680px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,5 +27,10 @@
 
   &:hover {
     border-bottom: 1px solid #989393;
+  }
+
+  &:active {
+    opacity: 0.3;
+    border-bottom-color: transparent;
   }
 }

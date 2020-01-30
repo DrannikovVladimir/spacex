@@ -20,6 +20,8 @@
 
     background-color: #150a01;
     opacity: 0.2;
+
+    z-index: 5;
   }
 
   &::after {
@@ -44,6 +46,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 1270px;
   margin: 0 auto;
   padding: 0 50px;
@@ -57,49 +60,14 @@
   align-items: baseline;
   width: 317px;
   height: 100px;
-  margin-right: 170px;
   padding-top: 25px;
   background-image: linear-gradient(to right, #FFFFFF 7px, transparent 7px, transparent 310px, #FFFFFF 310px),
   linear-gradient(to right, #FFFFFF 7px, transparent 7px, transparent 310px, #FFFFFF 310px),
-  linear-gradient(to bottom, #FFFFFF 7px, transparent 7px, transparent 93px, #FFFFFF 93px),
-  linear-gradient(to bottom, #FFFFFF 7px, transparent 7px, transparent 93px, #FFFFFF 93px);
-  background-size: 100% 1.5px, 100% 1.5px, 1.5px 100%, 1.5px 100%;
+  linear-gradient(to bottom, #FFFFFF 7px, rgba(150, 150, 150, 0.2) 7px, rgba(150, 150, 150, 0.2) 93px, #FFFFFF 93px),
+  linear-gradient(to bottom, #FFFFFF 7px, rgba(150, 150, 150, 0.2) 7px, rgba(150, 150, 150, 0.2) 93px, #FFFFFF 93px);
+  background-size: 100% 1px, 100% 1px, 1px 100%, 1px 100%;
   background-position: 0 0, 0 100%, 0 0, 100% 0;
   background-repeat: no-repeat;
 
   z-index: 10;
-
-  &::before {
-    content: '';
-
-    position: absolute;
-    top: 7px;
-    bottom: 7px;
-    right: 0;
-
-    width: 1px;
-    height: calc(100% - 14px);
-
-    background-color: #989393;
-    z-index: 1;
-
-    opacity: 0.2;
-  }
-
-  &::after {
-    content: '';
-
-    position: absolute;
-    top: 7px;
-    bottom: 7px;
-    left: 0;
-
-    width: 1px;
-    height: calc(100% - 14px);
-
-    background-color: #989393;
-    z-index: 1;
-
-    opacity: 0.2;
-  }
 }
