@@ -26,11 +26,66 @@
   font-weight: 300;
 
   &:hover {
+    opacity: 0.6;
     border-bottom: 1px solid #989393;
   }
 
   &:active {
     opacity: 0.3;
     border-bottom-color: transparent;
+  }
+}
+
+@media (max-width: 1270px) {
+  .main-nav__list {
+    width: 560px;
+  }
+
+  .main-nav__link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 990px) {
+  .main-nav__list {
+    width: 500px;
+  }
+
+  .main-nav__link {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 780px) {
+  .main-nav {
+    width: 100%;
+  }
+
+  .main-nav__list {
+    width: auto;
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .main-nav__item {
+    width: 100%;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.2);
+
+    &:first-child {
+      border-top: 1px solid rgba(150, 150, 150, 0.2);
+    }
+  }
+
+  .main-nav__link {
+    padding: 10px;
+
+    font-size: 14px;
+
+    &:hover {
+      border-bottom-color: transparent;
+    }
   }
 }
