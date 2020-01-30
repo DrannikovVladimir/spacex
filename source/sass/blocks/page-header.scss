@@ -139,4 +139,9 @@
     padding: 0;
     flex-direction: column;
   }
+
+  .page-header__logo {
+    position: relative;
+    left: -50px;
+  }
 }
